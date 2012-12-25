@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="3020c995-6a9d-4dd0-ba4b-e2126a7861c4" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>true</GenerateAsynchronousMethods>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings>
+      <CollectionMapping TypeName="System.Collections.Generic.List`1" Category="List" />
+    </CollectionMappings>
+    <GenerateSerializableTypes>false</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://10.60.36.12/Timemap_searchService/" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="Search_city1.wsdl" MetadataType="Wsdl" ID="153c684b-af7f-43ef-a06b-09402016cabf" SourceId="1" SourceUrl="http://10.60.36.12/Timemap_searchService/Search_city.svc?wsdl" />
+    <MetadataFile FileName="Search_city1.disco" MetadataType="Disco" ID="108799e0-63e5-46ff-9a2b-5fee80a0cc70" SourceId="1" SourceUrl="http://10.60.36.12/Timemap_searchService/Search_city.svc?disco" />
+    <MetadataFile FileName="Search_city3.xsd" MetadataType="Schema" ID="5ed02abc-824a-4994-ba11-c8c569abd338" SourceId="1" SourceUrl="http://10.60.36.12/Timemap_searchService/Search_city.svc?xsd=xsd0" />
+    <MetadataFile FileName="Search_city31.xsd" MetadataType="Schema" ID="8d3ab8e0-b36e-4b69-854a-e38657b9d49b" SourceId="1" SourceUrl="http://10.60.36.12/Timemap_searchService/Search_city.svc?xsd=xsd2" />
+    <MetadataFile FileName="Search_city32.xsd" MetadataType="Schema" ID="76af5984-5880-4f9d-a895-68c6d38c9788" SourceId="1" SourceUrl="http://10.60.36.12/Timemap_searchService/Search_city.svc?xsd=xsd1" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

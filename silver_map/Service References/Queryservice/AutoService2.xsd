@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://tempuri.org/" elementFormDefault="qualified" targetNamespace="http://tempuri.org/" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="http://flickerfox-pc/WcfAutoService/AutoService.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/WcfAutoService" />
+  <xs:element name="search_city">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="central_city_name" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="city_rank" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="search_cityResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q1="http://schemas.datacontract.org/2004/07/WcfAutoService" minOccurs="0" name="search_cityResult" nillable="true" type="q1:ArrayOfcity_info" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="query_city">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="central_city" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="des_city" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="query_cityResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q2="http://schemas.datacontract.org/2004/07/WcfAutoService" minOccurs="0" name="query_cityResult" nillable="true" type="q2:ArrayOfcity_info" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="anotherGet">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="anotherGetResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q3="http://schemas.datacontract.org/2004/07/WcfAutoService" minOccurs="0" name="anotherGetResult" nillable="true" type="q3:AdderData" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

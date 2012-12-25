@@ -1,0 +1,13 @@
+C:\Users\nxm\Desktop\silver_map\silver_map\Bin\Debug\favicon.ico
+C:\Users\nxm\Desktop\silver_map\silver_map\Bin\Debug\silver_map.dll
+C:\Users\nxm\Desktop\silver_map\silver_map\Bin\Debug\silver_map.pdb
+C:\Users\nxm\Desktop\silver_map\silver_map\Bin\Debug\AppManifest.xaml
+C:\Users\nxm\Desktop\silver_map\silver_map\Bin\Debug\silver_map.xap
+C:\Users\nxm\Desktop\silver_map\silver_map\Bin\Debug\TestPage.html
+C:\Users\nxm\Desktop\silver_map\silver_map\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\nxm\Desktop\silver_map\silver_map\obj\Debug\silver_map.g.resources
+C:\Users\nxm\Desktop\silver_map\silver_map\obj\Debug\silver_map.dll
+C:\Users\nxm\Desktop\silver_map\silver_map\obj\Debug\silver_map.pdb
+C:\Users\nxm\Desktop\silver_map\silver_map\obj\Debug\XapCacheFile.xml
+C:\Users\nxm\Desktop\silver_map\silver_map\obj\Debug\App.g.i.cs
+C:\Users\nxm\Desktop\silver_map\silver_map\obj\Debug\MainPage.g.i.cs

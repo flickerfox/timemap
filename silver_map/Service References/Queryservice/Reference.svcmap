@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="3829bd65-5f69-4710-97ab-1fa6b584239a" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>true</GenerateAsynchronousMethods>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings>
+      <CollectionMapping TypeName="System.Collections.Generic.List`1" Category="List" />
+    </CollectionMappings>
+    <GenerateSerializableTypes>false</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://192.168.1.101/WcfAutoService" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="AutoService.disco" MetadataType="Disco" ID="40750257-7be0-4429-9bb6-7a324e3f97e3" SourceId="1" SourceUrl="http://flickerfox-pc/WcfAutoService/AutoService.svc?disco" />
+    <MetadataFile FileName="AutoService.xsd" MetadataType="Schema" ID="7d632623-40db-47a7-9ab3-76135d5dd301" SourceId="1" SourceUrl="http://flickerfox-pc/WcfAutoService/AutoService.svc?xsd=xsd1" />
+    <MetadataFile FileName="AutoService.wsdl" MetadataType="Wsdl" ID="73dc8233-cca2-4b34-a00e-586d8d65eaa6" SourceId="1" SourceUrl="http://flickerfox-pc/WcfAutoService/AutoService.svc?wsdl" />
+    <MetadataFile FileName="AutoService1.xsd" MetadataType="Schema" ID="ee02acf4-a02b-45e3-a4db-ce352da7811b" SourceId="1" SourceUrl="http://flickerfox-pc/WcfAutoService/AutoService.svc?xsd=xsd2" />
+    <MetadataFile FileName="AutoService2.xsd" MetadataType="Schema" ID="ce868c2a-5647-4379-aa1d-3034f9e2a295" SourceId="1" SourceUrl="http://flickerfox-pc/WcfAutoService/AutoService.svc?xsd=xsd0" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

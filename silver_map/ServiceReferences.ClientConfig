@@ -1,0 +1,17 @@
+﻿<configuration>
+    <system.serviceModel>
+        <bindings>
+            <basicHttpBinding>
+                <binding name="BasicHttpBinding_ISearch_city" maxBufferSize="2147483647"
+                    maxReceivedMessageSize="2147483647">
+                    <security mode="None" />
+                </binding>
+            </basicHttpBinding>
+        </bindings>
+        <client>
+            <endpoint address="http://10.60.36.12/Timemap_searchService/Search_city.svc"
+                binding="basicHttpBinding" bindingConfiguration="BasicHttpBinding_ISearch_city"
+                contract="WCF.ISearch_city" name="BasicHttpBinding_ISearch_city" />
+        </client>
+    </system.serviceModel>
+</configuration>

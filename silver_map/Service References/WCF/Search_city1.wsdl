@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:tns="http://tempuri.org/" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="Search_city" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://tempuri.org/Imports">
+      <xsd:import schemaLocation="http://10.60.36.12/Timemap_searchService/Search_city.svc?xsd=xsd0" namespace="http://tempuri.org/" />
+      <xsd:import schemaLocation="http://10.60.36.12/Timemap_searchService/Search_city.svc?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xsd:import schemaLocation="http://10.60.36.12/Timemap_searchService/Search_city.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/Timemap_searchService" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="ISearch_city_search_city_InputMessage">
+    <wsdl:part name="parameters" element="tns:search_city" />
+  </wsdl:message>
+  <wsdl:message name="ISearch_city_search_city_OutputMessage">
+    <wsdl:part name="parameters" element="tns:search_cityResponse" />
+  </wsdl:message>
+  <wsdl:message name="ISearch_city_query_city_InputMessage">
+    <wsdl:part name="parameters" element="tns:query_city" />
+  </wsdl:message>
+  <wsdl:message name="ISearch_city_query_city_OutputMessage">
+    <wsdl:part name="parameters" element="tns:query_cityResponse" />
+  </wsdl:message>
+  <wsdl:message name="ISearch_city_shortest_time_InputMessage">
+    <wsdl:part name="parameters" element="tns:shortest_time" />
+  </wsdl:message>
+  <wsdl:message name="ISearch_city_shortest_time_OutputMessage">
+    <wsdl:part name="parameters" element="tns:shortest_timeResponse" />
+  </wsdl:message>
+  <wsdl:portType name="ISearch_city">
+    <wsdl:operation name="search_city">
+      <wsdl:input wsaw:Action="http://tempuri.org/ISearch_city/search_city" message="tns:ISearch_city_search_city_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ISearch_city/search_cityResponse" message="tns:ISearch_city_search_city_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="query_city">
+      <wsdl:input wsaw:Action="http://tempuri.org/ISearch_city/query_city" message="tns:ISearch_city_query_city_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ISearch_city/query_cityResponse" message="tns:ISearch_city_query_city_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="shortest_time">
+      <wsdl:input wsaw:Action="http://tempuri.org/ISearch_city/shortest_time" message="tns:ISearch_city_shortest_time_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ISearch_city/shortest_timeResponse" message="tns:ISearch_city_shortest_time_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="BasicHttpBinding_ISearch_city" type="tns:ISearch_city">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="search_city">
+      <soap:operation soapAction="http://tempuri.org/ISearch_city/search_city" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="query_city">
+      <soap:operation soapAction="http://tempuri.org/ISearch_city/query_city" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="shortest_time">
+      <soap:operation soapAction="http://tempuri.org/ISearch_city/shortest_time" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="Search_city">
+    <wsdl:port name="BasicHttpBinding_ISearch_city" binding="tns:BasicHttpBinding_ISearch_city">
+      <soap:address location="http://10.60.36.12/Timemap_searchService/Search_city.svc" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

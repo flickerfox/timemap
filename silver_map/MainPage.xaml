@@ -1,0 +1,10 @@
+﻿<UserControl
+	xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+	x:Class="silver_map.MainPage" Width="900" Height="900">
+
+	<Grid x:Name="LayoutRoot" Background="#FF011F41">
+		<Canvas Name="canvas1"   Background="Black" Loaded="Canvas_Loaded" MouseMove="canvas1_MouseMove" MouseLeftButtonUp="canvas1_MouseLeftButtonUp"></Canvas>
+		
+    </Grid>
+</UserControl>
